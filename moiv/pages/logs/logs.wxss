@@ -1,0 +1,44 @@
+.content{
+min-height: 100%;
+background-color: #F2F1F6;
+}
+.slider{
+  height: 480rpx;
+  padding-bottom: 27rpx;
+}
+
+.chunk{
+  width: 100%;
+  height: 340rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.chunk image{
+  width: 180rpx;
+  height: 120rpx;
+}
+
+.bottom{
+   margin-bottom: 10rpx;
+}
+.font{
+  margin-top: 30rpx;
+  font-size: 25rpx;  
+  font-weight:bold;
+  padding-bottom: 10rpx;
+}
+.color{
+  color: gray;
+  font-size: 22rpx;
+  padding-bottom: 70rpx;
+}
+
+.case{
+  width: 230rpx;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top: 10rpx;
+  background-color: #FFF;
+}
