@@ -8,7 +8,7 @@
     </block>
   </swiper>
 
-  <view class="chunk bottom">
+  <!-- <view class="chunk bottom">
     <view class="case">
       <text class="font">{{txxt.title[0]}}</text>
       <text class="color">{{txxt.text[0]}}</text>
@@ -42,6 +42,14 @@
       <text class="font">{{txxt.title[5]}}</text>
       <text class="color">{{txxt.text[5]}}</text>
       <image src="{{txxt.picture[5]}}"></image>
+    </view>
+  </view> -->
+
+  <view class="chunk">
+    <view class="case" wx:for="{{iconbutton}}" wx:key>
+      <text class="font">{{item.title}}</text>
+      <text class="color">{{item.text}}</text>
+      <image src="{{item.url}}"></image>
     </view>
   </view>
 </view>

@@ -4,41 +4,36 @@ background-color: #F2F1F6;
 }
 .slider{
   height: 480rpx;
-  padding-bottom: 27rpx;
+  /* padding-bottom: 27rpx; */
 }
-
 .chunk{
-  width: 100%;
-  height: 340rpx;
+  height: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap:wrap; 
+  justify-content:space-between;
+}
+.case{
+  width: 230rpx;
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  background: #FFF;
 }
 .chunk image{
   width: 180rpx;
   height: 120rpx;
-}
-
-.bottom{
-   margin-bottom: 10rpx;
+  padding-bottom: 30rpx;
 }
 .font{
   margin-top: 30rpx;
   font-size: 25rpx;  
   font-weight:bold;
-  padding-bottom: 10rpx;
+  padding-bottom: 20rpx;
 }
 .color{
   color: gray;
   font-size: 22rpx;
-  padding-bottom: 70rpx;
+  padding-bottom: 50rpx;
 }
 
-.case{
-  width: 230rpx;
-  display: flex;
-  flex-direction:column;
-  align-items:center;
-  margin-top: 10rpx;
-  background-color: #FFF;
-}
